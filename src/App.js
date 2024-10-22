@@ -9,7 +9,7 @@ function App() {
     // Função para buscar os usuários
     const fetchUsers = async () => {
       try {
-        const response = await axios.get('http://api-traca.voxcity.com.br');
+        const response = await axios.get('http://186.237.57.35');
         console.log('Users:', response.data);
         setUsers(response.data);
       } catch (error) {
