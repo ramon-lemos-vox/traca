@@ -23,6 +23,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+      <h1>Teste de deploy</h1>
         <h2>Users:</h2>
         <ul>
           {users.map((user) => (
