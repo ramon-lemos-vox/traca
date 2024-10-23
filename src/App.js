@@ -23,7 +23,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Deploy novo
+        <h1>Deploy de novo
           
         </h1>
         <h2>Users:</h2>
