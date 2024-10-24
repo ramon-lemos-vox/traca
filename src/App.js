@@ -29,7 +29,7 @@ function App() {
         </h1>
         <h2>Users:</h2>
         <ul>
-          {users.map((user) => (
+          {users?.map((user) => (
             <li key={user.id}>
               {user.username} - {user.email}
             </li>
